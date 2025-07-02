@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-02, 19:22:35"
+    "saved": "2025-07-02, 20:38:28"
   },
   "project": {
     "AUTHOR": "",
@@ -72,7 +72,8 @@
     "RESOURCES": [],
     "SOURCES": [
       "__init__.py",
-      "__main__.py"
+      "__main__.py",
+      "main.py"
     ],
     "SPELLEXCLUDES": "",
     "SPELLLANGUAGE": "ru_RU",
