@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# eric-ide files
+.eric7project/
+hitch_io.epj
+
+# git
+.gitignore
+.git
