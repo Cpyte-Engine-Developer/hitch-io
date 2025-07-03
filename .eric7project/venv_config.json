@@ -1,6 +1,0 @@
-{
-  "name": "embedded environment",
-  "interpreter": "/home/arman/projects/hitch_io/.venv/bin/python3",
-  "exec_path": "",
-  "system_site_packages": false
-}
