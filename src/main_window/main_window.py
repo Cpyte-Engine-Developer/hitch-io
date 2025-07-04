@@ -1,11 +1,14 @@
-# This Python file uses the following encoding: utf-8
-from PySide6 import QtCore
-from PySide6.QtWidgets import QMainWindow
+import sys
+from pathlib import Path
 
-from .ui.main_window import Ui_MainWindow
+from PySide6.QtQuick import QQuickView
+from PySide6.QtCore import QUrl
+from PySide6.QtQml import QQmlApplicationEngine
 
 
-class MainWindow(QMainWindow, Ui_MainWindow):
+class MainWindow(QQmlApplicationEngine):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+
+        self.addImportPath(sys.path[0])
+        self.load(QUrl.fromLocalFile("src/qml/main_window.qml"))

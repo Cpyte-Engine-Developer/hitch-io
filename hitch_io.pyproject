@@ -1,3 +1,3 @@
 {
-    "files": ["README.md","ui/filter_widget.ui","uv.lock",".python-version","src/__init__.py","ui/main_window.ui","__main__.py","pyproject.toml","src/main_window/main_window.py","src/main_window/__init__.py",".gitignore","src/main_window/ui/main_window.py","src/filter_widget/__init__.py","src/filter_widget/ui/filter_widget.py","src/main_window/qml/main_window.qml"]
+    "files": ["pyproject.toml","src/qml/main_window.qml","uv.lock","src/filter_widget/__init__.py","src/main_window/qml/main_window.qml","ui/filter_widget.ui","README.md","ui/main_window.ui","src/__init__.py",".gitignore","src/filter_widget/ui/filter_widget.py","__main__.py",".python-version","src/main_window/main_window.py"]
 }

@@ -12,3 +12,8 @@ wheels/
 # git
 .gitignore
 .git/
+
+# hitch_io
+.python-version
+hitch_io.pyproject
+hitch_io.pyproject.user
