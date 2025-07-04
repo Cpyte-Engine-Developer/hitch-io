@@ -2,16 +2,12 @@ import sys
 
 from PySide6.QtWidgets import QApplication, QMainWindow
 
-from ui_form import Ui_MainWindow
-
-class MainWindow(QMainWindow, Ui_MainWindow):
-    def __init__(self, parent=None):
-        super().__init__(parent)
-        self.setupUi(self)
+from src.main_window.main_window import MainWindow
 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    widget = MainWindow()
-    widget.show()
+    main_window = MainWindow()
+    apply_stylesheet(app, theme='light_teal.xml', invert_secondary=True)
+    main_window.show()
     sys.exit(app.exec())
