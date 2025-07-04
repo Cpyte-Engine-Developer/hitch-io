@@ -26,6 +26,10 @@
      <property name="text">
       <string>Clear</string>
      </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../icons/cleaning_services_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/cleaning_services_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+     </property>
     </widget>
    </item>
    <item row="1" column="0" colspan="2">
@@ -41,35 +45,63 @@
       <property name="text">
        <string>Phone browser</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/captive_portal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/captive_portal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
-       <string>Play in browser</string>
+       <string>Web browser</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/captive_portal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/captive_portal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Windows</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/desktop_windows_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/desktop_windows_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>macOS</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/desktop_mac_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/desktop_mac_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Linux</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/desktop_windows_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/desktop_windows_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Android</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/android_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/android_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>iOS</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -87,25 +119,45 @@
       <property name="text">
        <string>Free</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/hov_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/hov_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>On Sale</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/percent_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/percent_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Paid</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>$5 or less</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>$15 or less</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/paid_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -123,15 +175,27 @@
       <property name="text">
        <string>Last Day</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/today_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/today_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Last 7 days</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/date_range_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/date_range_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Last 30 days</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -149,90 +213,162 @@
       <property name="text">
        <string>Action</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/falling_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/falling_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Adventure</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/hiking_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/hiking_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Card Game</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/playing_cards_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/playing_cards_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Educational</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/school_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/school_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Fighting</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/sports_martial_arts_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/sports_martial_arts_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Interactive Fiction</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/format_clear_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/format_clear_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Platformer</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/directions_run_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/directions_run_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Puzzle</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/extension_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/extension_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Racing</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/motorcycle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/motorcycle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Rhytm</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/nightlife_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/nightlife_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Role Playing</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/castle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/castle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Shooter</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/target_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/target_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Simulation</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/simulation_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/simulation_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Sports</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/directions_run_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/directions_run_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Strategy</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/strategy_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/strategy_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Survival</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/cardiology_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/cardiology_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Visual Novel</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/planner_banner_ad_pt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/planner_banner_ad_pt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Other</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/alt_route_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/alt_route_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -250,130 +386,234 @@
       <property name="text">
        <string>Keyboard</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/keyboard_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/keyboard_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Mouse</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/mouse_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/mouse_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Xbox controller</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Gamepad (any)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Joystick</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/joystick_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/joystick_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Touchscreen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Voice control</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/record_voice_over_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/record_voice_over_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Oculus Rift</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Leap Motion</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/pan_tool_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/pan_tool_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Wiimote</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Kinect</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/camera_video_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/camera_video_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>NeuroSky Mindwave</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/network_intelligence_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/network_intelligence_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Accelerometer</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/motion_blur_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/motion_blur_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>OSVR (Open-Source Virtual Reality)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Smartphone</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/mobile_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Dance pad</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/cadence_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/cadence_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>HTC Vive</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Google Daydream VR</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Google Cardboard VR</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/playing_cards_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/playing_cards_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Playstation controller</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>MIDI controller</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/piano_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/piano_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Joy-Con</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Magic Leap</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/view_in_ar_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/view_in_ar_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Oculus Quest</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Windows Mixed Reality</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/view_in_ar_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/view_in_ar_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Valve Index</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/panorama_photosphere_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -391,30 +631,54 @@
       <property name="text">
        <string>A few seconds</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/alarm_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/alarm_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>A few minutes</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/schedule_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/schedule_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>About a half-hour</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>About an hour</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>A few hours</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/pace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Days or more</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -432,15 +696,27 @@
       <property name="text">
        <string>Local mutiplayer</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/diversity_3_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/diversity_3_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Server-based networked multiplayer</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/hard_drive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/hard_drive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Ad-hoc networked multiplayer</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/hard_drive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/hard_drive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -458,40 +734,72 @@
       <property name="text">
        <string>Color-blind friendly</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/dropper_eye_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/dropper_eye_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Subtitles</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/closed_caption_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/closed_caption_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Configurable controls</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/settings_applications_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/settings_applications_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>High-contrast</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/contrast_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/contrast_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Interactive tutorial</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/school_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/school_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>One button</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/radio_button_unchecked_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/radio_button_unchecked_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Blind friendly</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/visibility_off_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/visibility_off_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Textless</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/format_clear_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/format_clear_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -509,15 +817,27 @@
       <property name="text">
        <string>HTML5</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Downloadable</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/download_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/download_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Flash</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/http_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/http_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
@@ -535,25 +855,45 @@
       <property name="text">
        <string>With Steam keys</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/key_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/key_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>In game jams</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/alarm_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/alarm_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
      <item>
       <property name="text">
        <string>Not in game jams</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/schedule_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/schedule_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>With demos</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/face_4_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/face_4_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
      </item>
      <item>
       <property name="text">
        <string>Featured</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/featured_seasonal_and_gifts_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</normaloff>../icons/featured_seasonal_and_gifts_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</iconset>
       </property>
      </item>
     </widget>
