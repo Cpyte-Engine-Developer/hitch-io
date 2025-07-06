@@ -4,12 +4,12 @@ import QtQuick.Controls
 
 
 ApplicationWindow {
-    title: qsTr("Hitch.io")
+    title: "Hitch.io"
     width: 640
     height: 960
     visible: true
 
-    TabBar {
+    footer: TabBar {
         id: bar
         width: parent.width
 
@@ -37,177 +37,174 @@ ApplicationWindow {
 
         StackView {
             Column {
-            spacing: 10
-            padding: 10
+                RowLayout {
+                    Text {
+                        text: "FILTERS"
+                    }
 
-            RowLayout {
+                    Button {
+                        text: "Clear"
+                        icon.source: "../../icons/cleaning_services.png"
+                    }
+                }
+
                 Text {
-                    text: "FILTERS"
+                    text: "Platform"
                 }
 
-                Button {
-                    text: "Clear"
-                    icon.source: "../../icons/cleaning_services.png"
+                ComboBox {
+                    model: ["Web browser", "Android"]
+                }
+
+                Text {
+                    text: "Price"
+                }
+
+                ComboBox {
+                    model: ["Free", "On Sale", "Paid", "$5 or less", "$15 or less"]
+                }
+
+                Text {
+                    text: "When"
+                }
+
+                ComboBox {
+                    model: ["Last Day", "Last 7 Days", "Last 30 days"]
+                }
+
+                Text {
+                    text: "Genre"
+                }
+
+                ComboBox {
+                    model: [
+                        "Action",
+                        "Adventure",
+                        "Card Game",
+                        "Educational",
+                        "Fighting",
+                        "Interactive Fiction",
+                        "Platformer",
+                        "Puzzle",
+                        "Racing",
+                        "Rhythm",
+                        "Role Playing",
+                        "Shooter",
+                        "Simulation",
+                        "Sports",
+                        "Strategy",
+                        "Survival",
+                        "Visual Novel",
+                        "Other"
+                    ]
+                }
+
+                Text {
+                    text: "Input methods"
+                }
+
+                ComboBox {
+                    model: [
+                        "Keyboard",
+                        "Mouse",
+                        "Xbox controller",
+                        "Gamepad (any)",
+                        "Joystick",
+                        "Touchscreen",
+                        "Voice control",
+                        "Oculus Rift",
+                        "Leap Motion",
+                        "Wiimote",
+                        "Kinect",
+                        "NeuroSky Mindwave",
+                        "Accelerometer",
+                        "OSVR (Open-Source Virtual Reality)",
+                        "Smartphone",
+                        "Dance pad",
+                        "HTC Vive",
+                        "Google DayDream VR",
+                        "Google Cardboard VR",
+                        "Playstation controller",
+                        "MIDI Controller",
+                        "Joy-Con",
+                        "Magic Leap",
+                        "Oculus Quest",
+                        "Oculus GO",
+                        "Windows Mixed Reality",
+                        "Valve Index"
+                    ]
+                }
+
+                Text {
+                    text: "Average session length"
+                }
+
+                ComboBox {
+                    model: [
+                        "A few seconds",
+                        "A few minutes",
+                        "About a half-hour",
+                        "About an hour",
+                        "A few hours",
+                        "Days or more"
+                    ]
+                }
+
+                Text {
+                    text: "Multiplayer features"
+                }
+
+                ComboBox {
+                    model: [
+                        "Local Multiplayer",
+                        "Server-based networked multiplayer",
+                        "Ad-hoc networked multiplayer"
+                    ]
+                }
+
+                Text {
+                    text: "Accessibility features"
+                }
+
+                ComboBox {
+                    model: [
+                        "Color-blind friendly",
+                        "Subtitles",
+                        "Configurable controls",
+                        "High-contrast",
+                        "Interactive tutorial",
+                        "One button",
+                        "Blind friendly",
+                        "Textless"
+                    ]
+                }
+
+                Text {
+                    text: "Type"
+                }
+
+                ComboBox {
+                    model: [
+                        "HTML5",
+                        "Down;loadable",
+                        "Flash"
+                    ]
+                }
+
+                Text {
+                    text: "Misc"
+                }
+
+                ComboBox {
+                    model: [
+                        "With Steam keys",
+                        "In game jams",
+                        "Not in game jams",
+                        "With demos",
+                        "Featured"
+                    ]
                 }
             }
-
-            Text {
-                text: "Platform"
-            }
-
-            ComboBox {
-                model: ["Web browser", "Android"]
-            }
-
-            Text {
-                text: "Price"
-            }
-
-            ComboBox {
-                model: ["Free", "On Sale", "Paid", "$5 or less", "$15 or less"]
-            }
-
-            Text {
-                text: "When"
-            }
-
-            ComboBox {
-                model: ["Last Day", "Last 7 Days", "Last 30 days"]
-            }
-
-            Text {
-                text: "Genre"
-            }
-
-            ComboBox {
-                model: [
-                    "Action",
-                    "Adventure",
-                    "Card Game",
-                    "Educational",
-                    "Fighting",
-                    "Interactive Fiction",
-                    "Platformer",
-                    "Puzzle",
-                    "Racing",
-                    "Rhythm",
-                    "Role Playing",
-                    "Shooter",
-                    "Simulation",
-                    "Sports",
-                    "Strategy",
-                    "Survival",
-                    "Visual Novel",
-                    "Other"
-                ]
-            }
-
-            Text {
-                text: "Input methods"
-            }
-
-            ComboBox {
-                model: [
-                    "Keyboard",
-                    "Mouse",
-                    "Xbox controller",
-                    "Gamepad (any)",
-                    "Joystick",
-                    "Touchscreen",
-                    "Voice control",
-                    "Oculus Rift",
-                    "Leap Motion",
-                    "Wiimote",
-                    "Kinect",
-                    "NeuroSky Mindwave",
-                    "Accelerometer",
-                    "OSVR (Open-Source Virtual Reality)",
-                    "Smartphone",
-                    "Dance pad",
-                    "HTC Vive",
-                    "Google DayDream VR",
-                    "Google Cardboard VR",
-                    "Playstation controller",
-                    "MIDI Controller",
-                    "Joy-Con",
-                    "Magic Leap",
-                    "Oculus Quest",
-                    "Oculus GO",
-                    "Windows Mixed Reality",
-                    "Valve Index"
-                ]
-            }
-
-            Text {
-                text: "Average session length"
-            }
-
-            ComboBox {
-                model: [
-                    "A few seconds",
-                    "A few minutes",
-                    "About a half-hour",
-                    "About an hour",
-                    "A few hours",
-                    "Days or more"
-                ]
-            }
-
-            Text {
-                text: "Multiplayer features"
-            }
-
-            ComboBox {
-                model: [
-                    "Local Multiplayer",
-                    "Server-based networked multiplayer",
-                    "Ad-hoc networked multiplayer"
-                ]
-            }
-
-            Text {
-                text: "Accessibility features"
-            }
-
-            ComboBox {
-                model: [
-                    "Color-blind friendly",
-                    "Subtitles",
-                    "Configurable controls",
-                    "High-contrast",
-                    "Interactive tutorial",
-                    "One button",
-                    "Blind friendly",
-                    "Textless"
-                ]
-            }
-
-            Text {
-                text: "Type"
-            }
-
-            ComboBox {
-                model: [
-                    "HTML5",
-                    "Down;loadable",
-                    "Flash"
-                ]
-            }
-
-            Text {
-                text: "Misc"
-            }
-
-            ComboBox {
-                model: [
-                    "With Steam keys",
-                    "In game jams",
-                    "Not in game jams",
-                    "With demos",
-                    "Featured"
-                ]
-            }
-        }
 
             Grid {
             columns: 2
