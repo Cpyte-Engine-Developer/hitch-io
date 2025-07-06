@@ -9,13 +9,34 @@ ApplicationWindow {
     height: 960
     visible: true
 
-    StackView {
-        initialItem: mainView
+    TabBar {
+        id: bar
+        width: parent.width
+
+        TabButton {
+            text: "Browse"
+        }
+
+        TabButton {
+            text: "Library"
+        }
+
+        TabButton {
+            text: "Updates"
+        }
+
+        TabButton {
+            text: "Settings"
+        }
+    }
+
+    StackLayout {
         anchors.fill: parent
+        width: parent.width
+        currentIndex: bar.currentIndex
 
-        Column {
-
-            id: mainView
+        StackView {
+            Column {
             spacing: 10
             padding: 10
 
@@ -187,7 +208,8 @@ ApplicationWindow {
                 ]
             }
         }
-        Grid {
+
+            Grid {
             columns: 2
 
             ComboBox {
@@ -802,6 +824,93 @@ ApplicationWindow {
 
             Text {
                 text: "{} results"
+            }
+        }
+        }
+
+        Column {
+            Text {
+                text: qsTr("Installed apps")
+            }
+
+            Row {}
+
+            Text {
+                text: qsTr("Web games")
+            }
+
+            Row {}
+        }
+
+        Column {}
+
+        Column {
+            Text {
+                text: qsTr("Browsing")
+            }
+
+            Text {
+                text: qsTr("Starting Page")
+            }
+
+            ComboBox {
+                model: ["Popular Android games", "Popular web games"]
+            }
+
+            CheckBox {
+                text: "Filter downloadable only"
+            }
+
+            Text {
+                text: "Installation and Updates"
+            }
+
+            CheckBox {
+                text: "Warn when dowloading non-Android apps"
+            }
+
+            CheckBox {
+                text: "Check updates when on metered connections"
+            }
+
+            Text {
+                text: "Install web-games locally for offline playing"
+            }
+
+            ComboBox {
+                model: ["Always", "Ask for each game", "Never"]
+            }
+
+            Text {
+                text: "Use offline mode for installed web games"
+            }
+
+            ComboBox {
+                model: [
+                    "Only when Internet access is anavailable",
+                    "When launched on a metered connection",
+                    "Always"
+                ]
+            }
+
+            Text {
+                text: "Appearance"
+            }
+
+            Text {
+                text: "Theme"
+            }
+
+            ComboBox {
+                model: ["Dark", "Light", "Depends on system", "Depends on site"]
+            }
+
+            Text {
+                text: "Language"
+            }
+
+            ComboBox {
+                model: ["Default", "Depends on site", "Depends on system"]
             }
         }
     }
