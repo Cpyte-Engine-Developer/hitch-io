@@ -16,4 +16,6 @@ wheels/
 # hitch_io
 .python-version
 hitch_io.pyproject
-hitch_io.pyproject.user
+hitch_io.pyproject*
+.qtcreator/
+/pyproject.toml.user
