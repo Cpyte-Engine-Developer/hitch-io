@@ -19,3 +19,7 @@ hitch_io.pyproject
 hitch_io.pyproject*
 .qtcreator/
 /pyproject.toml.user
+/.eric7project/hitch_io.eqj
+/.eric7project/hitch_io.etj
+/.eric7project/hitch_io_tmp.esj
+/.jedi/project.json
