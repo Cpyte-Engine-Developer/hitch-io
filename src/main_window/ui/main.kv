@@ -1,22 +1,82 @@
 MDBoxLayout:
     orientation: "vertical"
     md_bg_color: self.theme_cls.backgroundColor
-    
-    MDScreenManager:
-        id: screen_manager
+
+    MDNavigationLayout:
+
+        MDNavigationDrawer:
+            drawer_type: "modal"
         
-        MDScreen:
-            name: "Games"
+            MDNavigationDrawerMenu:
             
-        MDScreen:
-            name: "Library"
+                MDNavigationDrawerLabel:
+                    text: "Filters"
+                    
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Platforms"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Price"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "When"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Genre"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Input methods"
+                    
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Average session length"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Multiplayer features"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Accessibility features"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Type"
+                        
+                MDNavigationDrawerItem:
+                
+                    MDNavigationDrawerItemText:
+                        text: "Misc"
             
-        MDScreen:
-            name: "Updates"
+        MDScreenManager:
+            id: screen_manager
             
-        MDScreen:
-            name: "Settings"
-            
+            MDScreen:
+                name: "Games"
+                
+            MDScreen:
+                name: "Library"
+                
+            MDScreen:
+                name: "Updates"
+                
+            MDScreen:
+                name: "Settings"
+                    
     MDNavigationBar:
         on_switch_tabs: app.on_switch_tabs(*args)
         
@@ -45,6 +105,6 @@ MDBoxLayout:
                 icon: "cog"
             MDNavigationItemLabel:
                 text: "Settings"
-                
+                    
                 
                 
