@@ -1,81 +1,86 @@
 MDBoxLayout:
     orientation: "vertical"
     md_bg_color: self.theme_cls.backgroundColor
-
-    MDNavigationLayout:
-
-        MDNavigationDrawer:
-            drawer_type: "modal"
+            
+    MDScreenManager:
+        id: screen_manager
         
-            MDNavigationDrawerMenu:
+        MDScreen:
+            name: "Games"
             
-                MDNavigationDrawerLabel:
-                    text: "Filters"
-                    
-                MDNavigationDrawerItem:
+            MDScrollView:
+                MDBoxLayout:
+                    orientation: "vertical"
+                    adaptive_height: True
                 
-                    MDNavigationDrawerItemText:
-                        text: "Platforms"
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Price"
+                        MDButtonText:
+                            text: "Platforms"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "When"
+                        MDButtonText:
+                            text: "Price"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Genre"
+                        MDButtonText:
+                            text: "When"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Input methods"
-                    
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Average session length"
+                        MDButtonText:
+                            text: "Genre"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Multiplayer features"
+                        MDButtonText:
+                            text: "Input methods"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Accessibility features"
+                        MDButtonText:
+                            text: "Average session length"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Type"
+                        MDButtonText:
+                            text: "Multiplayer features"
+                            
+                    MDButton:
+                        style: "text"
                         
-                MDNavigationDrawerItem:
-                
-                    MDNavigationDrawerItemText:
-                        text: "Misc"
+                        MDButtonText:
+                            text: "Accessibility features"
+                            
+                    MDButton:
+                        style: "text"
+                        
+                        MDButtonText:
+                            text: "Type"
+                            
+                    MDButton:
+                        style: "text"
+                        
+                        MDButtonText:
+                            text: "Misc"
             
-        MDScreenManager:
-            id: screen_manager
+        MDScreen:
+            name: "Library"
             
-            MDScreen:
-                name: "Games"
-                
-            MDScreen:
-                name: "Library"
-                
-            MDScreen:
-                name: "Updates"
-                
-            MDScreen:
-                name: "Settings"
+        MDScreen:
+            name: "Updates"
+            
+        MDScreen:
+            name: "Settings"
                     
     MDNavigationBar:
         on_switch_tabs: app.on_switch_tabs(*args)
