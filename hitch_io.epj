@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-09, 16:18:00"
+    "saved": "2025-07-09, 16:24:14"
   },
   "project": {
     "AUTHOR": "",
@@ -82,9 +82,6 @@
       "src/filter_widget/__init__.py",
       "src/main_window/__init__.py",
       "src/main_window/main_window.py",
-      "src/standard_filter_button/__init__.py",
-      "src/standard_filter_button/standard_filter_button.py",
-      "src/standard_filter_button/ui/standard_filter_button.kv",
       "ui/__init__.py",
       "ui/main.kv"
     ],
