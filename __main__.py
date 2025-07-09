@@ -18,6 +18,7 @@ class MainApp(MDApp):
         self.theme_cls.theme_style = "Dark"
         
         Builder.load_file("src/standard_filter_button/ui/standard_filter_button.kv")
+        Builder.load_file("src/filter_header_list_item/ui/filter_header_list_item.kv")
         
         return Builder.load_file("ui/main.kv")
 

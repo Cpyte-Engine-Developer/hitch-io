@@ -6,52 +6,23 @@ MDBoxLayout:
         id: screen_manager
         
         MDScreen:
+            id: games_screen
             name: "Games"
             
             MDScrollView:
                 MDBoxLayout:
                     orientation: "vertical"
                     adaptive_height: True
-                
-                    StandardFilterButton:                        
-                        MDButtonText:
-                            text: "Platforms"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Price"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "When"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Genre"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Input methods"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Average session length"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Multiplayer features"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Accessibility features"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Type"
-                            
-                    StandardFilterButton:
-                        MDButtonText:
-                            text: "Misc"
+                    
+                    MDExpansionPanel:
+                        MDExpansionPanelHeader:
+                            FilterHeaderListItem:                                
+                                MDListItemSupportingText:
+                                    text: "Platforms"                                
+                        
+                        MDExpansionPanelContent:
+                            orientation: "vertical"
+                        
             
         MDScreen:
             name: "Library"
