@@ -16,7 +16,10 @@ class MainApp(MDApp):
         
     def build(self):
         self.theme_cls.theme_style = "Dark"
-        return Builder.load_file("src/main_window/ui/main.kv")
+        
+        Builder.load_file("src/standard_filter_button/ui/standard_filter_button.kv")
+        
+        return Builder.load_file("ui/main.kv")
 
 
 MainApp().run()
