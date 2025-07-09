@@ -19,6 +19,7 @@ class MainApp(MDApp):
         
         Builder.load_file("src/games_screen/ui/games_screen.kv")
         Builder.load_file("src/filter_header_list_item/ui/filter_header_list_item.kv")
+        Builder.load_file("src/library_screen/ui/library_screen.kv")
         
         return Builder.load_file("ui/main.kv")
 

@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-09, 16:33:44"
+    "saved": "2025-07-09, 16:38:16"
   },
   "project": {
     "AUTHOR": "",
@@ -81,11 +81,14 @@
       "src/filter_header_list_item/filter_header_list_item.py",
       "src/filter_header_list_item/ui/__init__.py",
       "src/filter_header_list_item/ui/filter_header_list_item.kv",
-      "src/filter_widget/__init__.py",
       "src/games_screen/__init__.py",
       "src/games_screen/games_screen.py",
       "src/games_screen/ui/__init__.py",
       "src/games_screen/ui/games_screen.kv",
+      "src/library_screen/__init__.py",
+      "src/library_screen/library_screen.py",
+      "src/library_screen/ui/__init__.py",
+      "src/library_screen/ui/library_screen.kv",
       "src/main_window/__init__.py",
       "src/main_window/main_window.py",
       "ui/__init__.py",
