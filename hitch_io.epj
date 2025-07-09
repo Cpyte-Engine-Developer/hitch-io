@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-09, 16:38:16"
+    "saved": "2025-07-09, 16:44:33"
   },
   "project": {
     "AUTHOR": "",
@@ -91,6 +91,10 @@
       "src/library_screen/ui/library_screen.kv",
       "src/main_window/__init__.py",
       "src/main_window/main_window.py",
+      "src/updates_screen/__init__.py",
+      "src/updates_screen/ui/__init__.py",
+      "src/updates_screen/ui/updates_screen.kv",
+      "src/updates_screen/updates_screen.py",
       "ui/__init__.py",
       "ui/main.kv"
     ],
