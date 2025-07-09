@@ -1,0 +1,28 @@
+<NavigationBar@MDNavigationBar>:
+        on_switch_tabs: app.on_switch_tabs(*args)
+        
+        MDNavigationItem:
+            active: True
+        
+            MDNavigationItemIcon:
+                icon: "web"
+            MDNavigationItemLabel:
+                text: "Games"
+                
+        MDNavigationItem:        
+            MDNavigationItemIcon:
+                icon: "bookshelf"
+            MDNavigationItemLabel:
+                text: "Library"
+            
+        MDNavigationItem:        
+            MDNavigationItemIcon:
+                icon: "bell-outline"
+            MDNavigationItemLabel:
+                text: "Updates"
+                
+        MDNavigationItem:        
+            MDNavigationItemIcon:
+                icon: "cog"
+            MDNavigationItemLabel:
+                text: "Settings"

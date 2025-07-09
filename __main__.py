@@ -22,6 +22,7 @@ class MainApp(MDApp):
         Builder.load_file("src/library_screen/ui/library_screen.kv")
         Builder.load_file("src/settings_screen/ui/settings_screen.kv")
         Builder.load_file("src/updates_screen/ui/updates_screen.kv")
+        Builder.load_file("src/navigation_bar/ui/navigation_bar.kv")
         
         return Builder.load_file("ui/main.kv")
 
