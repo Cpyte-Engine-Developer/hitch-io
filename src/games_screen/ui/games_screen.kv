@@ -1,18 +1,17 @@
 <GamesScreen@MDScreen>:
-    MDScreen:
-        id: games_screen
-        name: "Games"
-        
-        MDScrollView:
-            MDBoxLayout:
-                orientation: "vertical"
-                adaptive_height: True
+    id: games_screen
+    name: "Games"
+    
+    MDScrollView:
+        MDBoxLayout:
+            orientation: "vertical"
+            adaptive_height: True
+            
+            MDExpansionPanel:
+                MDExpansionPanelHeader:
+                    FilterHeaderListItem:                                
+                        MDListItemSupportingText:
+                            text: "Platforms"                                
                 
-                MDExpansionPanel:
-                    MDExpansionPanelHeader:
-                        FilterHeaderListItem:                                
-                            MDListItemSupportingText:
-                                text: "Platforms"                                
-                    
-                    MDExpansionPanelContent:
-                        orientation: "vertical"
+                MDExpansionPanelContent:
+                    orientation: "vertical"
