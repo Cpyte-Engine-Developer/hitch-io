@@ -1,7 +1,8 @@
 from kivy.lang import Builder
-
 from kivymd.app import MDApp
 from kivymd.uix.navigationbar import MDNavigationBar, MDNavigationItem
+
+from src.filter_icon_button import FilterIconButton
 
 
 class MainApp(MDApp):
