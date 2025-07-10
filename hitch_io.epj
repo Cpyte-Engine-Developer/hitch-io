@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-09, 17:06:06"
+    "saved": "2025-07-10, 15:29:21"
   },
   "project": {
     "AUTHOR": "",
@@ -76,7 +76,22 @@
     "SOURCES": [
       "__init__.py",
       "__main__.py",
+      "main.kv",
       "src/__init__.py",
+      "src/filter_expansion_panel/__init__.py",
+      "src/filter_expansion_panel/filter_expansion_panel.py",
+      "src/filter_expansion_panel/ui/__init__.py",
+      "src/filter_expansion_panel/ui/accessibility_features_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/average_session_length_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/filter_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/genre_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/input_methods_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/misc_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/multiplayer_features_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/platforms_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/price_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/type_expansion_panel.kv",
+      "src/filter_expansion_panel/ui/when_expansion_panel.kv",
       "src/filter_header_list_item/__init__.py",
       "src/filter_header_list_item/filter_header_list_item.py",
       "src/filter_header_list_item/ui/__init__.py",
@@ -96,6 +111,7 @@
       "src/main_window/__init__.py",
       "src/main_window/main_window.py",
       "src/navigation_bar/__init__.py",
+      "src/navigation_bar/navigation_bar.py",
       "src/navigation_bar/ui/__init__.py",
       "src/navigation_bar/ui/navigation_bar.kv",
       "src/settings_screen/__init__.py",
@@ -105,9 +121,7 @@
       "src/updates_screen/__init__.py",
       "src/updates_screen/ui/__init__.py",
       "src/updates_screen/ui/updates_screen.kv",
-      "src/updates_screen/updates_screen.py",
-      "ui/__init__.py",
-      "ui/main.kv"
+      "src/updates_screen/updates_screen.py"
     ],
     "SPELLEXCLUDES": "",
     "SPELLLANGUAGE": "en",
