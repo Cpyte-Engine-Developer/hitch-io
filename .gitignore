@@ -23,3 +23,6 @@ hitch_io.pyproject*
 /.eric7project/hitch_io.etj
 /.eric7project/hitch_io_tmp.esj
 /.jedi/project.json
+
+# eric
+hitch_io.epj

@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-11, 16:26:40"
+    "saved": "2025-07-11, 17:29:25"
   },
   "project": {
     "AUTHOR": "",
@@ -57,6 +57,7 @@
     },
     "MIXEDLANGUAGE": false,
     "OTHERS": [
+      ".gitignore.asp",
       "README.md",
       "hitch_io.epj",
       "pyproject.toml"
@@ -103,7 +104,9 @@
       "src/library_screen/__init__.py",
       "src/library_screen/library_screen.py",
       "src/library_screen/ui/__init__.py",
+      "src/library_screen/ui/label.kv",
       "src/library_screen/ui/library_screen.kv",
+      "src/library_screen/ui/scroll_view.kv",
       "src/main_window/__init__.py",
       "src/main_window/main_window.py",
       "src/navigation_bar/__init__.py",
