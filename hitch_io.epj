@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-11, 14:55:53"
+    "saved": "2025-07-11, 15:12:16"
   },
   "project": {
     "AUTHOR": "",
@@ -80,10 +80,14 @@
       "src/__init__.py",
       "src/filter_expansion_panel/__init__.py",
       "src/filter_expansion_panel/filter_expansion_panel.py",
+      "src/filter_expansion_panel/filter_header_list_item.py",
+      "src/filter_expansion_panel/filter_icon_button.py",
       "src/filter_expansion_panel/ui/__init__.py",
       "src/filter_expansion_panel/ui/accessibility_features_expansion_panel.kv",
       "src/filter_expansion_panel/ui/average_session_length_expansion_panel.kv",
       "src/filter_expansion_panel/ui/filter_expansion_panel_content.kv",
+      "src/filter_expansion_panel/ui/filter_header_list_item.kv",
+      "src/filter_expansion_panel/ui/filter_icon_button.kv",
       "src/filter_expansion_panel/ui/genre_expansion_panel.kv",
       "src/filter_expansion_panel/ui/input_methods_expansion_panel.kv",
       "src/filter_expansion_panel/ui/misc_expansion_panel.kv",
@@ -92,14 +96,8 @@
       "src/filter_expansion_panel/ui/price_expansion_panel.kv",
       "src/filter_expansion_panel/ui/type_expansion_panel.kv",
       "src/filter_expansion_panel/ui/when_expansion_panel.kv",
-      "src/filter_header_list_item/__init__.py",
-      "src/filter_header_list_item/filter_header_list_item.py",
-      "src/filter_header_list_item/ui/__init__.py",
-      "src/filter_header_list_item/ui/filter_header_list_item.kv",
       "src/filter_icon_button/__init__.py",
-      "src/filter_icon_button/filter_icon_button.py",
       "src/filter_icon_button/ui/__init__.py",
-      "src/filter_icon_button/ui/filter_icon_button.kv",
       "src/games_screen/__init__.py",
       "src/games_screen/games_screen.py",
       "src/games_screen/ui/__init__.py",

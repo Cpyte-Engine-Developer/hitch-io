@@ -1,1 +1,1 @@
-from .filter_expansion_panel import FilterExpansionPanel
+from .filter_icon_button import FilterIconButton
