@@ -12,6 +12,6 @@ class FilterIconButton(ButtonBehavior,  RotateBehavior,  MDListItemTrailingIcon)
             panel.open()
             
         if not panel.is_open:
-            panel.set_chevron_up(self)
-        else:
             panel.set_chevron_down(self)
+        else:
+            panel.set_chevron_up(self)
