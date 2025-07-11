@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project hitch_io",
     "copyright": "Copyright (C) 2025 , ",
-    "saved": "2025-07-10, 19:43:16"
+    "saved": "2025-07-11, 14:55:53"
   },
   "project": {
     "AUTHOR": "",
@@ -83,7 +83,6 @@
       "src/filter_expansion_panel/ui/__init__.py",
       "src/filter_expansion_panel/ui/accessibility_features_expansion_panel.kv",
       "src/filter_expansion_panel/ui/average_session_length_expansion_panel.kv",
-      "src/filter_expansion_panel/ui/filter_expansion_panel.kv",
       "src/filter_expansion_panel/ui/filter_expansion_panel_content.kv",
       "src/filter_expansion_panel/ui/genre_expansion_panel.kv",
       "src/filter_expansion_panel/ui/input_methods_expansion_panel.kv",

@@ -5,7 +5,6 @@ from kivymd.app import MDApp
 from kivymd.uix.navigationbar import MDNavigationBar, MDNavigationItem
 
 from src.filter_icon_button import FilterIconButton
-from src.filter_expansion_panel import FilterExpansionPanel
 from src.games_screen import GamesScreen
 from src.library_screen import LibraryScreen
 from src.updates_screen import UpdatesScreen

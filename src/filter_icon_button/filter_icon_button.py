@@ -6,6 +6,7 @@ from kivymd.uix.expansionpanel import MDExpansionPanel
 
 class FilterIconButton(ButtonBehavior,  RotateBehavior,  MDListItemTrailingIcon):
     def tap_expansion_chevron(self,  panel: MDExpansionPanel):
+        print(panel)
         if panel.is_open:
             panel.close()
         else:
