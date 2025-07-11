@@ -1,7 +1,6 @@
 from pathlib import Path
 
 from kivy.lang import Builder
-from kivy.config import Config
 from kivymd.app import MDApp
 from kivymd.uix.navigationbar import MDNavigationBar, MDNavigationItem
 
@@ -11,11 +10,6 @@ from src.library_screen import LibraryScreen
 from src.updates_screen import UpdatesScreen
 from src.settings_screen import SettingsScreen
 from src.navigation_bar import NavigationBar
-
-
-Config.set('graphics', 'width', '576')
-Config.set('graphics', 'height', '1248')
-Config.write()
 
 
 class MainApp(MDApp):
@@ -30,6 +24,7 @@ class MainApp(MDApp):
         
     def build(self):
         self.theme_cls.theme_style = "Dark"
+        self.title = "Hitch.io"
         
         for path in Path("src/").glob("**/*.kv"):
             Builder.load_file(str(path))
