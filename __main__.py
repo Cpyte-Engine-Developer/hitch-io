@@ -8,7 +8,7 @@ from src.filter_expansion_panel import FilterIconButton
 from src.games_screen import GamesScreen
 from src.library_screen import LibraryScreen
 from src.updates_screen import UpdatesScreen
-from src.settings_screen import SettingsScreen
+from src.settings_screen import SettingsScreen,  SettingsScreenSwitchWithText
 from src.navigation_bar import NavigationBar
 
 

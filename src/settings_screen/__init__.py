@@ -1,1 +1,2 @@
 from .settings_screen import SettingsScreen
+from .switch_with_text import SettingsScreenSwitchWithText
